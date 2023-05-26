@@ -1,0 +1,58 @@
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  z-index: 500;
+  background-color: white;
+}
+
+/* 헤더아이콘 */
+.header-name {
+  display: flex;
+  padding-left: 8rem;
+}
+
+.header-name img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.header-name h1 {
+  line-height: 3rem;
+  text-align: center;
+}
+
+/* 헤더 카테고리 */
+.header-category {
+  display: flex;
+  padding-right: 8rem;
+}
+
+.other {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  line-height: 3rem;
+  position: relative;
+}
+
+.select {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  line-height: 3rem;
+  position: relative;
+}
+
+.select::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}

@@ -16,7 +16,7 @@
       <div id="circle"></div>
       <section class="header-name">
         <img src="img/107.jpg" />
-        <h1>SeungJun Moon</h1>
+        <h1>SungJun Moon</h1>
       </section>
       <section class="header-category">
         <a href="index.html">
@@ -43,18 +43,18 @@
                 가능하다 믿어 누가 뭐라건"
               </p>
               <p>
-                좋아하는 노래의 가사 일부입니다. 가사가 의미하는 대로 상황이
-                예기치 않아도 제가 나아가고 싶은 방향으로 꾸준히 올라가며 꿈을
-                성취할 수 있는 개발자가 되고 싶습니다.
+                좋아하는 노래의 가사입니다. 제 꿈을 실현하기 위해 지속적으로
+                배우고 성장하며, 새로운 도전과 기회를 적극적으로 받아들이는
+                자세를 가지고 있습니다. 저는 협업과 팀워크를 중요시 여기며, 다른
+                사람들과의 의견을 존중하고 효과적으로 소통하는 능력을 갖추고
+                있습니다.
               </p>
             </article>
           </article>
         </section>
-        <a href="">
+        <a href="intro.html">
           <p class="more">More <span>➡</span></p>
         </a>
-        <!-- 자기소개 -->
-        <section></section>
         <!-- 기술 -->
         <section class="skill">
           <p>기 술</p>
@@ -90,7 +90,9 @@
               </article>
             </article>
           </section>
-          <p class="more">More <span>➡</span></p>
+          <a href="skill.html">
+            <p class="more">More <span>➡</span></p>
+          </a>
         </section>
 
         <!-- 프로젝트 -->
@@ -143,12 +145,61 @@
               </article>
             </article>
           </section>
-          <p class="more">More <span>➡</span></p>
+          <a href="project.html">
+            <p class="more">More <span>➡</span></p>
+          </a>
         </section>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section class="footer-wrapper">
+        <h3>Contact Me</h3>
+        <article class="contact-me">
+          <article class="contact-info">
+            <img src="img/user.png" />
+            <article class="info-content">
+              <p>Name</p>
+              <p>문성준</p>
+            </article>
+          </article>
+          <article class="contact-info">
+            <img src="img/location.png" />
+            <article class="info-content">
+              <p>Address</p>
+              <p onclick="addressCopy()">서울시 강남구 역삼동</p>
+            </article>
+          </article>
+          <article class="contact-info">
+            <img src="img/phone.png" />
+            <article class="info-content">
+              <p>Phone</p>
+              <p id="phone-number" onclick="phoneCopy()">010-2086-7368</p>
+            </article>
+          </article>
+          <article class="contact-info">
+            <img src="img/email.png" />
+            <article class="info-content">
+              <p>E-mail</p>
+              <p id="e-mail" onclick="emailCopy()">tjdwnsrhksdn@naver.com</p>
+            </article>
+          </article>
+        </article>
+        <article class="other">
+          <a href="https://github.com/CamelIsTheBestConvention" target="_blank"
+            ><div class="github-icon"></div
+          ></a>
+          <a
+            href="https://moonmisae.notion.site/8687cfc8be4b40f5b203c54506a8f960"
+            target="_blank"
+            ><div class="notion-icon"></div
+          ></a>
+          <a href="https://moonmisae-cdpt.tistory.com/" target="_blank"
+            ><div class="tistory-icon"></div
+          ></a>
+        </article>
+      </section>
+    </footer>
   </body>
-  <script src="js/index.js"></script>
+  <script src="js/copy.js"></script>
   <script src="js/mouseCircle.js"></script>
 </html>

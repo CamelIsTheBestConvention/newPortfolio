@@ -1,0 +1,107 @@
+footer {
+  width: 100%;
+  background-color: #d9d9d9;
+  position: relative;
+  color: black;
+}
+
+.footer-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.footer-wrapper > h3 {
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+  font-size: 1.5rem;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 0;
+}
+
+.contact-info {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.contact-info > img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.info-content {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.info-content > p:nth-child(1) {
+  color: dimgrey;
+}
+
+.info-content > p:nth-child(2) {
+  cursor: pointer;
+}
+
+.info-content > p:nth-child(2):hover {
+  color: red;
+}
+
+.other {
+  display: flex;
+  justify-content: center;
+}
+
+.other > a {
+  margin: 0 0.5rem;
+}
+
+.other > a:nth-child(1) > div {
+  width: 3rem;
+  height: 3rem;
+  background-image: url("../img/github.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.other > a:nth-child(1) > div:hover {
+  width: 3.5rem;
+  height: 3.5rem;
+  filter: opacity(0.5) drop-shadow(0 0 0 #ffffff);
+  transition: 0.5s;
+}
+
+.other > a:nth-child(2) > div {
+  width: 3.3rem;
+  height: 3.3rem;
+  border-radius: 50%;
+  background-image: url("../img/notion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.other > a:nth-child(2) > div:hover {
+  width: 3.8rem;
+  height: 3.8rem;
+  filter: opacity(0.5) drop-shadow(0 0 0 #ffffff);
+  transition: 0.5s;
+}
+
+.other > a:nth-child(3) > div {
+  width: 3rem;
+  height: 3rem;
+  background-image: url("../img/tistory.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.other > a:nth-child(3) > div:hover {
+  width: 3.5rem;
+  height: 3.5rem;
+  filter: opacity(0.5) drop-shadow(0 0 0 #ffffff);
+  transition: 0.5s;
+}

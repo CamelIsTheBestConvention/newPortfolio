@@ -56,3 +56,25 @@ header {
   transform: translateX(-50%);
   border-radius: 50%;
 }
+
+.select:hover::after {
+  animation: dotMove 3s ease-in-out infinite;
+}
+
+@keyframes dotMove {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 100%;
+  }
+  40% {
+    left: 0;
+  }
+  60% {
+    left: 100%;
+  }
+  80% {
+    left: 0;
+  }
+}

@@ -1,0 +1,75 @@
+.page-title {
+  font-size: 2rem;
+}
+
+.skill-category {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #04b431;
+  color: white;
+  font-weight: bold;
+}
+
+label {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 1rem;
+}
+
+label:hover {
+  background-color: #04b431;
+  color: white;
+  cursor: pointer;
+}
+
+.skill-content {
+  width: 100%;
+  min-height: 19rem;
+  margin: 2rem 0 4rem 0;
+  padding-left: 2rem;
+}
+
+#content-title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.fade-in2s {
+  animation: fadein 2s;
+}
+
+.fade-in3s {
+  animation: fadein 3s;
+}
+
+#content-detail {
+  width: 100%;
+}
+
+#content-detail > ul > li {
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+/* fade이벤트 */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

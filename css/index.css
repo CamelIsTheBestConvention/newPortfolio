@@ -181,3 +181,19 @@
   width: 40%;
   margin-left: 4rem;
 }
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fadeup {
+  animation: fadeUp 2s;
+}

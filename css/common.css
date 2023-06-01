@@ -6,6 +6,14 @@
   text-decoration: none;
 }
 
+body {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 main {
   padding-top: 10rem;
 }

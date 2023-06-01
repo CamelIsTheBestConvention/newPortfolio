@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/107.jpg" />
+    <title>문성준 - 프론트엔드 포트폴리오</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/intro.css" />
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header>
+      <div id="circle"></div>
+      <section class="header-name">
+        <img src="img/107.jpg" />
+        <h1>SungJun Moon</h1>
+      </section>
+      <section class="header-category">
+        <a href="index.html">
+          <span class="other">홈</span>
+        </a>
+        <a href="intro.html"><span class="other">소개</span></a>
+        <a href="skill.html"><span class="other">기술</span></a>
+        <a href="project.html"><span class="select">프로젝트</span></a>
+      </section>
+    </header>
+    <!-- 메인 -->
+    <main>
+      <section class="body-wrapper"></section>
+    </main>
+    <!-- 푸터 -->
+    <footer>
+      <section class="footer-wrapper">
+        <h3>Contact Me</h3>
+        <article class="contact-me">
+          <article class="contact-info">
+            <img src="img/user.png" />
+            <article class="info-content">
+              <p>Name</p>
+              <p>문성준</p>
+            </article>
+          </article>
+          <article class="contact-info">
+            <img src="img/location.png" />
+            <article class="info-content">
+              <p>Address</p>
+              <p>서울시 강남구 역삼동</p>
+            </article>
+          </article>
+          <article class="contact-info">
+            <img src="img/phone.png" />
+            <article class="info-content">
+              <p>Phone</p>
+              <p id="phone-number" onclick="phoneCopy()">010-2086-7368</p>
+            </article>
+          </article>
+          <article class="contact-info">
+            <img src="img/email.png" />
+            <article class="info-content">
+              <p>E-mail</p>
+              <p id="e-mail" onclick="emailCopy()">tjdwnsrhksdn@naver.com</p>
+            </article>
+          </article>
+        </article>
+        <article class="other">
+          <a href="https://github.com/CamelIsTheBestConvention" target="_blank"
+            ><div class="github-icon"></div
+          ></a>
+          <a
+            href="https://moonmisae.notion.site/8687cfc8be4b40f5b203c54506a8f960"
+            target="_blank"
+            ><div class="notion-icon"></div
+          ></a>
+          <a href="https://moonmisae-cdpt.tistory.com/" target="_blank"
+            ><div class="tistory-icon"></div
+          ></a>
+        </article>
+      </section>
+    </footer>
+  </body>
+  <script src="js/copy.js"></script>
+  <script src="js/mouseCircle.js"></script>
+</html>

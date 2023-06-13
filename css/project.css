@@ -1,0 +1,38 @@
+.project-wrapper {
+  width: 100%;
+  height: 50vh;
+  margin: 3rem 0;
+  border: 1px solid black;
+  display: flex;
+}
+
+.project-intro {
+  width: 30%;
+}
+
+.project-img {
+  width: 100%;
+  height: 80%;
+  border: 1px solid black;
+}
+
+.project-title {
+  width: 100%;
+  height: 20%;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 6rem;
+  font-size: 2rem;
+}
+
+.tul {
+  height: 4rem;
+  margin: 3rem 1rem 7rem 1rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.tul > h2 {
+  text-align: center;
+  line-height: 4rem;
+}
